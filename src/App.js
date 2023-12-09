@@ -1,9 +1,11 @@
 import UseStateCounter from "./useState/UseStateCounter";
+import UseStateObject from "./useState/UseStateObject";
 
 function App() {
   return (
     <div>
-      <UseStateCounter />
+      {/* <UseStateCounter /> */}
+      <UseStateObject />
     </div>
   );
 }
